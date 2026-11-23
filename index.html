@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080607">
+  <meta name="description" content="Um pequeno presente para Giovanna.">
+  <title>Para você, Giovanna ♡</title>
+  <link rel="preload" as="image" href="img/GiovannaBanner.jpeg">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <header class="site-header reveal">
+      <div class="top-heart" aria-hidden="true">♥</div>
+      <p class="eyebrow">Um pequeno presente para você</p>
+      <h1>Para você, <span>Giovanna.</span></h1>
+
+      <section class="author-feature" aria-label="Homenagem ao escritor favorito de Giovanna">
+        <img class="author-feature-image" src="img/author-banner.png" data-default-src="img/author-banner.png" data-letter-src="img/GiovannaBanner.jpeg" alt="Garçom de terno preto e luvas brancas segurando uma bandeja">
+        <div class="author-feature-shade" aria-hidden="true"></div>
+        <div class="author-feature-copy">
+          <h2 class="author-feature-name">GIOVANNA</h2>
+          <p class="author-feature-author">RAPHAEL MONTES</p>
+        </div>
+      </section>
+      <p class="author-transition">
+  <span class="transition-original">
+    Mas desta vez, a história não foi escrita por ele.
+    <strong>Foi escrita por alguém que queria dizer algo a você.</strong>
+  </span>
+
+  <span class="transition-purple">
+    O Rapha sabe escrever muito, mas essa é a história mais incrível
+    que ele nunca vai pôr no papel.
+  </span>
+</p>
+    </header>
+
+    <section class="message-section reveal interactive-container" aria-labelledby="message-title">
+      <h2 class="section-title" id="message-title">Tenho algo para te contar...</h2>
+      <div class="separator" aria-hidden="true">♡</div>
+
+      <button
+        class="envelope-button"
+        id="open-letter"
+        type="button"
+        aria-haspopup="dialog"
+        aria-controls="letter-dialog"
+      >
+        <span class="envelope-scene" aria-hidden="true">
+          <span class="envelope-back"></span>
+          <span class="envelope-letter-peek"><span>Uma carta para você</span></span>
+          <span class="envelope-front"></span>
+          <span class="envelope-flap"></span>
+          <span class="envelope-seal">♡</span>
+        </span>
+        <span class="envelope-hint">Clique no envelope para abrir sua carta</span>
+      </button>
+
+      <div class="separator separator-bottom" aria-hidden="true">♡</div>
+    </section>
+
+    <section class="video-area reveal interactive-container" aria-labelledby="video-title">
+      <h2 class="section-title" id="video-title">Tem umas paradas que sempre penso...</h2>
+
+      <a
+        class="video-link"
+        id="video-link"
+        href="https://youtu.be/M22Ms-tKo2Q"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Abrir o vídeo no YouTube em uma nova aba"
+      >
+        <img src="img/jao.png" alt="Clique na imagem para assistir ao vídeo">
+        <span class="play" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false">
+            <path d="M8 5.8c0-.77.84-1.25 1.5-.86l10.1 6.2a1 1 0 0 1 0 1.72l-10.1 6.2c-.66.4-1.5-.09-1.5-.86V5.8Z" fill="currentColor" />
+          </svg>
+        </span>
+      </a>
+
+      <p class="video-caption">Clique para assistir ao vídeo</p>
+      <div class="end-heart" aria-hidden="true">♡</div>
+    </section>
+  </main>
+
+  <dialog class="letter-dialog" id="letter-dialog" aria-labelledby="letter-dialog-title">
+    <article class="letter-paper">
+      <button class="letter-close" id="close-letter" type="button" aria-label="Fechar carta">×</button>
+      <p class="letter-kicker">Uma coisa que eu queria te dizer</p>
+      <h2 id="letter-dialog-title">Giovanna,</h2>
+
+      <div class="letter-content">
+        <p>Oiie, Gih! Bom dia!!!</p>
+        <p>Como cê tá?</p>
+
+        <p>Acho que já te mando essas mesmas duas linhas de texto há um tempinho, né? E é engraçado pensar que todos esses “como cê tá?” são de verdade. Eu realmente quis saber como você estava, não era só uma formalidade, sabe?</p>
+
+        <p>Eu não sei muito bem o que te dizer aqui e também não quero te encher com um monte de palavras. Afinal, ainda tem mais coisa pela frente, viu?</p>
+
+        <p>Amanhã tenho meu TCC, né? E é engraçado como, independentemente da situação, quando penso em você, fico muito mais tranquilo. Então resolvi fazer tudo isso.</p>
+
+        <p>A real é que já tenho parte dessa ideia na cabeça há algum tempo. Só estava esperando um momento que parecesse certo. Não sei se esse é o melhor momento, mas foi aquele em que me senti mais confortável para finalmente tirar tudo isso do papel.</p>
+
+        <p>É estranho pensar que existem pouquíssimas pessoas no mundo por quem eu faria um vídeo, escreveria uma carta ou até mesmo criaria um site do zero. E, entre essas pouquíssimas pessoas, tem uma garota morena, de pavio um pouquinho curto, que não é lá das mais altas, mas que tem um senso de humor incrível, um estilo foda e uma aparência de outro mundo.</p>
+
+        <p>Enfim, Giovanna, gosto muito de ti. De verdade. Acho que isso já deu pra notar nas últimas 857930482 vezes em que me declarei pra ti, né?</p>
+
+        <p>Te amo, meu bem. ❤️</p>
+      </div>
+
+      <p class="letter-signature">Com carinho, <span>♡</span></p>
+    </article>
+  </dialog>
+
+  <div class="theme-switch" id="theme-switch" hidden>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Mudar para o tema roxo">
+      <span class="theme-toggle-symbol" aria-hidden="true">◐</span>
+      <span id="theme-toggle-label">Tema roxo</span>
+    </button>
+  </div>
+
+  <div class="music-control" aria-label="Música de fundo">
+    <div class="music-indicator" id="music-indicator" role="status" aria-label="Gimme Love, de Joji">
+      <span class="vinyl-disc" aria-hidden="true"><span class="vinyl-center"></span></span>
+      <span class="music-divider" aria-hidden="true">|</span>
+      <span class="music-track"><strong id="music-title">Gimme Love</strong><span id="music-artist"> - Joji</span></span>
+    </div>
+    <audio id="background-music" src="sound/Joji.mp3" loop preload="auto"></audio>
+    <audio id="letter-background-music" src="sound/O-Amor-Jao.mp3" loop preload="auto"></audio>
+  </div>
+
+  <script src="https://louisabraham.github.io/nekojs/neko.js" data-autostart></script>
+</body>
+</html>
